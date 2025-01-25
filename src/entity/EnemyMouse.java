@@ -312,15 +312,15 @@ public class EnemyMouse extends Entity {
 
   private Hitbox getAttackHitboxForState() {
     switch (state) {
-      case LEFT:  
+      case LEFT:
         return ATTACK_HITBOX_LEFT;
-      case RIGHT: 
+      case RIGHT:
         return ATTACK_HITBOX_RIGHT;
-      case DOWN:  
+      case DOWN:
         return ATTACK_HITBOX_DOWN;
-      case UP:    
+      case UP:
         return ATTACK_HITBOX_UP;
-      default:    
+      default:
         return new Hitbox(0, 0, 0, 0);
     }
   }

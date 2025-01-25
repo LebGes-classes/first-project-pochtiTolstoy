@@ -16,6 +16,12 @@ public class GameLogic {
       case InputHandler.KEY_M:
         level.getPlayer().attack();
         break;
+      case InputHandler.KEY_N:
+        level.nextLocation();
+        break;
+      case InputHandler.KEY_P:
+        level.prevLocation();
+        break;
     }
     if (level.getPlayer().outOfLocation() && !level.isLevelComplete()) {
       level.changeLocation();

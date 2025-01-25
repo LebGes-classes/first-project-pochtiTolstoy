@@ -12,6 +12,8 @@ public class InputHandler {
   public static final char KEY_S = 's';
   public static final char KEY_D = 'd';
   public static final char KEY_M = 'm';
+  public static final char KEY_N = 'n';
+  public static final char KEY_P = 'p';
   public static final char KEY_UNDEFINED = '?';
 
   private char keyValue = KEY_UNDEFINED;
