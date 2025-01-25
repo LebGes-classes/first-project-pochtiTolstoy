@@ -1,0 +1,18 @@
+@-------------------------------------------
+|Help:                                     |
+|                                          |
+|-> Use wasd to move player                |
+|-> Use m to attack enemies                |
+|-> Use q to quit from game                |
+|-> Use enter to press buttons             |
+|                                          |
+|Hint:                                     |
+|                                          |
+|-> Change font size if graphics           |
+|   are broken                             |
+|                                          |
+|Goal:                                     |
+|                                          |
+|-> You goal is to find a way out          |
+|   of a cave                              |
+--------------------------------------------
